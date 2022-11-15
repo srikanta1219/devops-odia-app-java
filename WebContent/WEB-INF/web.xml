@@ -14,7 +14,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>UserLoginServlet</servlet-name>
-    <url-pattern>/userlog</url-pattern>
+    <url-pattern>/userlog.html</url-pattern>
   </servlet-mapping>
   <servlet>
     <servlet-name>UserRegisterServlet</servlet-name>
