@@ -23,7 +23,7 @@ public class UserLoginServlet extends GenericServlet {
 			ps.setString(2, pWord);
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
-				RequestDispatcher rd = req.getRequestDispatcher("Sample.html");
+				RequestDispatcher rd = req.getRequestDispatcher("userlog.html");
 				rd.include(req, res);
 				pw.println("<div class=\"home hd brown\">Welcome ! " + uName + "</div><br/>");
 				pw.println("<div class=\"tab hd brown\">User Login Successful !</div><br/>");
