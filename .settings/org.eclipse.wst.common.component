@@ -3,7 +3,7 @@
     
     
     
-    <wb-module deploy-name="onlinebookstore">
+    <wb-module deploy-name="devopsodia">
                                         
         
         
@@ -22,10 +22,10 @@
         
         
         
-        <property name="java-output-path" value="/onlinebookstore/build/classes"/>
+        <property name="java-output-path" value="/devopsodia/build/classes"/>
                         
         
-        <property name="context-root" value="onlinebookstore"/>
+        <property name="context-root" value="devopsodia"/>
                                     
     
     

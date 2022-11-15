@@ -1,6 +1,6 @@
-CREATE DATABASE if not exists onlinebookstore;
+CREATE DATABASE if not exists devopsodia;
 
-\c onlinebookstore
+\c devopsodia
 
 CREATE TABLE if not exists books 
   ( 
